@@ -10,9 +10,9 @@ public class CsesDailyApplication {
 
     public static void main(String[] args) throws IOException {
         SpringApplication.run(CsesDailyApplication.class, args);
-        MissingNumbers missingNumbers = new MissingNumbers();
-        long[] arr = {1L,2L,3L,5L};
-        missingNumbers.runForMissing(5,arr);
+        Repitions repitions = new Repitions();
+        String[] arr1 = {"A","T","T","T","T","T","A","A"};
+        repitions.maxRepitions(arr1);
     }
 
 }
