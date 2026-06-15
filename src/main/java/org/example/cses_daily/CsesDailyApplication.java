@@ -10,9 +10,10 @@ public class CsesDailyApplication {
 
     public static void main(String[] args) throws IOException {
         SpringApplication.run(CsesDailyApplication.class, args);
-        Repitions repitions = new Repitions();
-        String[] arr1 = {"A","T","T","T","T","T","A","A"};
-        repitions.maxRepitions(arr1);
+       IncreasingArray increasingArray =
+               new IncreasingArray();
+       int[] arr = {3,2,5,4,7};
+       increasingArray.minimumMoves(5,arr);
     }
 
 }
